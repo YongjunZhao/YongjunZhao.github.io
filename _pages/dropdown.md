@@ -7,10 +7,9 @@ dropdown: true
 children:
   - title: publications
     permalink: /publications/
+  - title: cv
+    permalink: /cv/
   - title: divider
-  - title: projects
-    permalink: /projects/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: news
+    permalink: /news/
 ---

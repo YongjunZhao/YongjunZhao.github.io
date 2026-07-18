@@ -8,18 +8,17 @@ middle_name:
 last_name: Zhao
 email: foreverjun.zhao@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Research Scientist at TikTok working on privacy-enhancing technologies, applied cryptography, and secure computation.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: applied crypto, privacy-enhancing technologies, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: applied cryptography, privacy-enhancing technologies, secure computation, private set intersection, searchable encryption, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon:  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🔒 # the emoji used as a favicon (alternatively, provide image name in /assets/img/)
 
 url: https://yongjunzhao.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -161,9 +160,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+external_sources: []
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -180,7 +179,7 @@ collections:
     permalink: /projects/:path/
 
 announcements:
-  enabled: false
+  enabled: true
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -225,11 +224,14 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages_unused
   - repositories.md
   - purgecss.config.js
   - README.md
   - readme_preview/
   - vendor
+  - _posts
+  - assets/jupyter
 keep_files:
   - CNAME
   - .nojekyll

@@ -4,6 +4,7 @@ title: about
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
+# Profile picture is disabled as requested.
 profile:
 #  align: right
 #  image: prof_pic.jpg
@@ -18,13 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Research Scientist at TikTok working on privacy-enhancing technologies. Prior to joining TikTok, I was a senior research fellow at the Strategic Centre for Research in Privacy-Preserving Technologies & Systems [(SCRIPTS)](https://www.ntu.edu.sg/scripts), Nanyang Technological University. I obtained my Ph.D. from the Chinese University of Hong Kong, under the supervision of [Prof. Sherman Chow](https://www.ie.cuhk.edu.hk/faculty/chow-sze-ming-sherman/).
+I am a Research Scientist at [TikTok](https://www.tiktok.com) in the Privacy Innovation Lab, working on privacy-enhancing technologies (PETs) and their deployment in real-world systems. Prior to joining TikTok, I was a Senior Research Fellow at the Strategic Centre for Research in Privacy-Preserving Technologies & Systems [(SCRIPTS)](https://www.ntu.edu.sg/scripts), Nanyang Technological University (NTU), and a Research Fellow at NTU. I received my Ph.D. in Information Engineering from [The Chinese University of Hong Kong](https://www.ie.cuhk.edu.hk/) in 2018, advised by [Prof. Sherman S. M. Chow](https://www.ie.cuhk.edu.hk/faculty/chow-sze-ming-sherman/). I also hold a B.Eng. in Information Engineering (First Class Honors) from CUHK.
 
-
-<!-- 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
--->
+My research focuses on applied cryptography and PETs, including private set operations, privacy-preserving machine learning, searchable encryption and cryptographic proofs for cloud storage, digital signatures and anonymous credentials, and privacy-preserving payment/blockchain systems. I have served on program committees for venues such as AAAI, PoPETs, ICDCS, and PPAI, and as an external reviewer for CRYPTO, CCS, IEEE TDSC/TIFS, and many others.

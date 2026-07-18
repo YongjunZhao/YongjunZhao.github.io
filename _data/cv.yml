@@ -1,97 +1,206 @@
-- title: Research Scientist
+- title: General Information
   type: map
   contents:
     - name: Full Name
-      value: Yongjun Zhao
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yongjun Zhao (赵永骏)
+    - name: Email
+      value: <a href="mailto:foreverjun.zhao@gmail.com">foreverjun.zhao@gmail.com</a>
+    - name: Homepage
+      value: <a href="https://yongjunzhao.github.io">yongjunzhao.github.io</a>
+    - name: ORCID
+      value: <a href="https://orcid.org/0000-0001-7380-3806">0000-0001-7380-3806</a>
     - name: Languages
-      value: English, Chinese
+      value: Cantonese (native), English (fluent), Mandarin (fluent)
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Privacy-enhancing technologies
+      items:
+        - Private set operations
+        - Privacy-preserving machine learning
+        - Privacy-preserving payment and e-cash systems
+        - Cryptocurrency and blockchain privacy
+    - title: Cryptographic solutions for cloud storage
+      items:
+        - Searchable encryption
+        - Proofs of retrievability (PoR) and proofs of ownership (PoW)
+        - Message-locked encryption (MLE)
+        - Secure deduplication
+    - title: Digital signatures and anonymous authentication
+      items:
+        - Anonymous credentials and tokens
+        - Lattice-based signatures
+        - Threshold and accountable signatures
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Research Scientist
+      institution: TikTok, Privacy Innovation Lab
+      year: Dec 2022 – present
+      description:
+        - Research and development of privacy-enhancing technologies for large-scale systems.
+    - title: Senior Research Fellow
+      institution: Strategic Centre for Research in Privacy-Preserving Technologies and Systems (SCRiPTS), Nanyang Technological University, Singapore
+      year: Jul 2022 – Nov 2022
+    - title: Research Fellow
+      institution: Nanyang Technological University, Singapore
+      year: Oct 2019 – Jun 2022
+    - title: Research Assistant
+      institution: Department of Information Engineering, The Chinese University of Hong Kong
+      year: Sep 2018 – Aug 2019
+    - title: Part-time Instructor
+      institution: IEMS5710 Cryptography, Information Security and Privacy, The Chinese University of Hong Kong
+      year: Jan 2017 – May 2017
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: The Chinese University of Hong Kong, Hong Kong, China
-      year: 2018
+    - title: Ph.D. in Information Engineering
+      institution: The Chinese University of Hong Kong
+      year: Sep 2013 – Jun 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Bachelor
-      institution: The Chinese University of Hong Kong, Hong Kong, China
-      year: 2009-2013
+        - Dissertation: "Privacy Enhancing Technologies: New Primitives and New Systems"
+        - Advisor: Prof. Sherman S. M. Chow
+    - title: B.Eng. in Information Engineering (First Class Honors)
+      institution: The Chinese University of Hong Kong
+      year: Sep 2011 – Jun 2013
       description:
-        - Description 1.
-        - Description 2.
+        - Transferred from Sun Yat-sen University after two years of undergraduate study.
+    - title: Undergraduate Study
+      institution: Sun Yat-sen University, Guangzhou, China
+      year: Sep 2009 – Jun 2011
 
-- title: Experience
-  type: time_table
+- title: Patents
+  type: list
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - "Jian Du, Haohao Qian, Yongjun Zhao, Bo Jiang, and Qiang Yan. <em>Protecting membership and data in a secure multi-party computation and/or communication</em>. US Patent 11,886,617. Jan 2024."
+    - "Jian Du, Yongjun Zhao, Haohao Qian, Bo Jiang, and Qiang Yan. <em>Protecting membership in a secure multi-party computation and/or communication</em>. US Patent 11,989,325. May 2024."
+    - "Yongjun Zhao, Jian Du, Haohao Qian, Bo Jiang, and Qiang Yan. <em>Secure computation and communication</em>. US Patent 11,811,920. Nov 2023."
+    - "Jian Du, Yongjun Zhao, Haohao Qian, Bo Jiang, and Qiang Yan. <em>Protecting membership in a secure multi-party computation and/or communication</em>. US Patent 11,829,512. Nov 2023."
+    - "Bo Jiang, Jian Du, Haohao Qian, Yongjun Zhao, and Qiang Yan. <em>Fast convolution algorithm for composition determination</em>. US Patent 11,868,497. Jan 2024."
+    - "Jian Du, Haohao Qian, Yongjun Zhao, Bo Jiang, Chuyuan Chen, and Qiang Yan. <em>Secure multi-party computation and communication</em>. US Patent 11,836,263. Dec 2023."
+    - "Jian Du, Haohao Qian, Yongjun Zhao, Bo Jiang, Chuyuan Chen, and Qiang Yan. <em>Secure multi-party computation and communication</em>. US Patent 11,983,285. May 2024."
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2022
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - "Runner-up Prize (Collaboration with AngelPowerFL, Tencent), iDASH Privacy & Security Workshop 2022 – Secure Genome Analysis Competition, Track 4: Secure Record Linkage"
+    - year: 2022
       items:
-        - Max Planck Medal
+        - "Top Reviewer Award, The 22nd Privacy Enhancing Technologies Symposium"
+    - year: 2016
+      items:
+        - "Outstanding Tutors Award, Faculty of Engineering, CUHK"
+    - year: 2016
+      items:
+        - "Teaching Assistant Award for 1st Term 2016–17, Department of Information Engineering, CUHK"
+    - year: 2016
+      items:
+        - "Teaching Assistant Award for 2nd Term 2015–16, Department of Information Engineering, CUHK"
+    - year: 2013
+      items:
+        - "Dean’s List 2012/2013, Faculty of Engineering, CUHK"
+    - year: 2012
+      items:
+        - "Dean’s List 2011/2012, Faculty of Engineering, CUHK"
+        - "Chung Chi College Departmental Prize 2011/2012, CUHK (HK$10,000)"
+        - "Chung Chi College Scholarship 2011/2012, CUHK (HK$2,000)"
+    - year: 2011
+      items:
+        - "National Scholarship for 2010/2011, Sun Yat-sen University (RMB ¥8,000)"
+        - "First Prize Scholarship of SYSU Scholarship Fund for 2010/2011, Sun Yat-sen University (RMB ¥2,000)"
+    - year: 2010
+      items:
+        - "Third Prize Scholarship of SYSU Scholarship Fund for 2009/2010, Sun Yat-sen University (RMB ¥1,000)"
 
-- title: Academic Interests
+- title: Professional Activities
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Session Chair
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - "ACM CCS (2023)"
+        - "Asiacrypt (2021)"
+    - title: Program Committee
       items:
-        - Description 1.
-        - Description 2.
+        - "2026: AAAI"
+        - "2025: AAAI, IEEE Global Blockchain Conference"
+        - "2024: AAAI, PPAI, ICDCS"
+        - "2023: AAAI (Main Track & AI for Social Impact Track), PoPETs"
+        - "2022: AAAI (AI for Social Impact Track), EAI AC3, ICICS, PoPETs, SACMAT, SeCrypt, UbiSec, USENIX Security Artifact Evaluation"
+        - "2021: APKC, DPML, EAI AC3, ICICS, ISPEC, IEEE S&P (Shadow PC), PoPETs, SeCrypt, TrustCom, UbiSec, USENIX Security Artifact Evaluation"
+        - "2020: Globecom CISS, ISPEC, NSS, SeCrypt, TrustCom"
+        - "2019: 3ICT, C2SI, Globecom CISS, ICPADS, SeCrypt"
+        - "2018: AsiaCCS-SCC, BlockSEA, NSS, SeCrypt, SecureComm"
+        - "2017: CANS, InsCrypt, SeCrypt, CyberSecurity (CS)"
+    - title: External Reviewer
+      items:
+        - "2026: IEEE TETC, IEEE TPDS"
+        - "2025: IEEE TDSC, IEEE TGCN, IEEE TIFS"
+        - "2024: CRYPTO, IEEE TCC, IEEE TDSC"
+        - "2023: IEEE TIFS, IEEE TDSC"
+        - "2022: ACNS, AsiaCCS, CCS, CT-RSA, ESORICS, IWSEC, IEEE Systems Journal, IET Information Security, The Computer Journal"
+        - "2021: AsiaCCS, ESORICS, EuroS&P, ICDCS, PKC, PoPETs, USENIX Security, ACM TOPS, IEEE TDSC, IET Information Security"
+        - "2020: ACNS, AsiaCCS, Asiacrypt, ESORICS, IEEE TC, IEEE TCC, Sensors, The Computer Journal"
+        - "2019: ACNS, AsiaCCS, Asiacrypt, CNS, CRYPTO, ESORICS, ISC, ISPEC, PoPETs, SecureComm, IEEE TCC, FGCS, JISA"
+        - "2018: AsiaCCS, AfricaCrypt, CNS, ESORICS, ICICS, ISC, PoPETs, PST, Computer Networks (SI), IEEE TIFS, IEEE TCC, FGCS"
+        - "2017: ACNS, Asiacrypt, AfricaCrypt, AsiaCCS, AsiaCCS-APKC, AsiaCCS-SCC, C2SI, ESORICS, Globecom, ISC, PST, SACMAT, WPES, CoSe, JISA"
+        - "2016: ACNS, AfricaCrypt, AsiaCCS, Asiacrypt, APKC, CANS, CNS, ESORICS, Globecom, ICC, ICPADS, Inscrypt, ISC, ISPEC, POST, SACMAT, SecureComm, WPES, Computers & Security, IJIS"
+        - "2015: AsiaCCS, Asiacrypt, CNS, CANS, Financial Cryptography, ICDCS, ICICS, Infocom, InsCrypt, ISC, PKC, SeCrypt, SmartGridComm, PerCom"
+        - "2014: ACM CCS, AsiaCCS, AsiaPKC, Asiacrypt, CNS, ESORICS, HPCC, ICICS, ISC, ISPEC, SmartGridComm"
+        - "2013: InsCrypt"
 
-- title: Other Interests
+- title: Seminars and Talks
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<strong>[Jul 2025]</strong> Lightning Talks: Making PETs Work for You — PETs Summit, Singapore"
+    - "<strong>[Aug 2024]</strong> Challenges in Privacy and Security of Generative AI Models — Trustworthy Data Science and AI Lab, Tokyo Institute of Technology, Japan"
+    - "<strong>[Jul 2024]</strong> Synergizing DP and MPC for Privacy-Preserving Ad Measurement — Privacy-Enhancing Technology Summit Asia-Pacific 2024, Singapore"
+    - "<strong>[Jul 2024]</strong> PrivacyGo: TikTok’s Initiative in Synergistic PETs — STACK Meetup, GovTech, Singapore"
+    - "<strong>[Sep 2023]</strong> Protecting User Privacy in Private Set Intersection: A Journey Toward Mitigating User Tracking — School of Computing, National University of Singapore"
+    - "<strong>[Sep 2023]</strong> Protecting User Privacy in Private Set Intersection: A Journey Toward Mitigating User Tracking — School of Computing & Information Systems, Singapore Management University"
+    - "<strong>[Aug 2022]</strong> Private Set Intersection: Introduction and Applications — Joint Workshop by ISACA SG, IAPP SG KnowledgeNet and NTU"
+    - "<strong>[May 2022]</strong> Towards Efficient and Practical Privacy-Preserving Machine Learning — Department of Computing, The Hang Seng University of Hong Kong"
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: "RE4001: Renaissance Capstone Project (co-supervisor)"
+      institution: Nanyang Technological University
+      year: 2021 – 2022
+      description:
+        - "Project: Privacy-preserving matchmaking in social networks"
+        - "Students: Ho Alexander Joong Khuan, Lim Collin Tian Jun, Wong Vincent Yong Sheng"
+    - title: "PS101: Introduction to Privacy-preserving Secure Data Computation & Analytics (Instructor)"
+      institution: Nanyang Technological University
+      year: 2020 – 2021
+    - title: "IEMS5710: Cryptography, Information Security and Privacy (Part-time Instructor)"
+      institution: The Chinese University of Hong Kong
+      year: Jan 2017 – May 2017
+    - title: "IERG2051: Signals and Systems (Teaching Assistant)"
+      institution: The Chinese University of Hong Kong
+      year: 2015 – 2016
+    - title: "IERG3310: Computer Networks (Teaching Assistant)"
+      institution: The Chinese University of Hong Kong
+      year: 2015 – 2016
+    - title: "IERG4130: Introduction to Cyber Security (Teaching Assistant)"
+      institution: The Chinese University of Hong Kong
+      year: 2015 – 2016
+      description:
+        - "Outstanding Teaching Assistant Award"
+    - title: "IERG4160: Image and Video Processing (Teaching Assistant)"
+      institution: The Chinese University of Hong Kong
+      year: 2014 – 2015
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - "LaTeX, C/C++, Python, Java, C#, Web Programming, MATLAB"
+    - title: Languages
+      items:
+        - "Cantonese (native), English (fluent), Mandarin (fluent)"
