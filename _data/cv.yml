@@ -50,9 +50,6 @@
     - title: Research Assistant
       institution: Department of Information Engineering, The Chinese University of Hong Kong
       year: Sep 2018 – Aug 2019
-    - title: Part-time Instructor
-      institution: IEMS5710 Cryptography, Information Security and Privacy, The Chinese University of Hong Kong
-      year: Jan 2017 – May 2017
 
 - title: Education
   type: time_table
@@ -72,50 +69,21 @@
       institution: Sun Yat-sen University, Guangzhou, China
       year: Sep 2009 – Jun 2011
 
-- title: Patents
+- title: Honors and Awards
   type: list
   contents:
-    - "Jian Du, Haohao Qian, Yongjun Zhao, Bo Jiang, and Qiang Yan. <em>Protecting membership and data in a secure multi-party computation and/or communication</em>. US Patent 11,886,617. Jan 2024."
-    - "Jian Du, Yongjun Zhao, Haohao Qian, Bo Jiang, and Qiang Yan. <em>Protecting membership in a secure multi-party computation and/or communication</em>. US Patent 11,989,325. May 2024."
-    - "Yongjun Zhao, Jian Du, Haohao Qian, Bo Jiang, and Qiang Yan. <em>Secure computation and communication</em>. US Patent 11,811,920. Nov 2023."
-    - "Jian Du, Yongjun Zhao, Haohao Qian, Bo Jiang, and Qiang Yan. <em>Protecting membership in a secure multi-party computation and/or communication</em>. US Patent 11,829,512. Nov 2023."
-    - "Bo Jiang, Jian Du, Haohao Qian, Yongjun Zhao, and Qiang Yan. <em>Fast convolution algorithm for composition determination</em>. US Patent 11,868,497. Jan 2024."
-    - "Jian Du, Haohao Qian, Yongjun Zhao, Bo Jiang, Chuyuan Chen, and Qiang Yan. <em>Secure multi-party computation and communication</em>. US Patent 11,836,263. Dec 2023."
-    - "Jian Du, Haohao Qian, Yongjun Zhao, Bo Jiang, Chuyuan Chen, and Qiang Yan. <em>Secure multi-party computation and communication</em>. US Patent 11,983,285. May 2024."
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2022
-      items:
-        - "Runner-up Prize (Collaboration with AngelPowerFL, Tencent), iDASH Privacy & Security Workshop 2022 – Secure Genome Analysis Competition, Track 4: Secure Record Linkage"
-    - year: 2022
-      items:
-        - "Top Reviewer Award, The 22nd Privacy Enhancing Technologies Symposium"
-    - year: 2016
-      items:
-        - "Outstanding Tutors Award, Faculty of Engineering, CUHK"
-    - year: 2016
-      items:
-        - "Teaching Assistant Award for 1st Term 2016–17, Department of Information Engineering, CUHK"
-    - year: 2016
-      items:
-        - "Teaching Assistant Award for 2nd Term 2015–16, Department of Information Engineering, CUHK"
-    - year: 2013
-      items:
-        - "Dean’s List 2012/2013, Faculty of Engineering, CUHK"
-    - year: 2012
-      items:
-        - "Dean’s List 2011/2012, Faculty of Engineering, CUHK"
-        - "Chung Chi College Departmental Prize 2011/2012, CUHK (HK$10,000)"
-        - "Chung Chi College Scholarship 2011/2012, CUHK (HK$2,000)"
-    - year: 2011
-      items:
-        - "National Scholarship for 2010/2011, Sun Yat-sen University (RMB ¥8,000)"
-        - "First Prize Scholarship of SYSU Scholarship Fund for 2010/2011, Sun Yat-sen University (RMB ¥2,000)"
-    - year: 2010
-      items:
-        - "Third Prize Scholarship of SYSU Scholarship Fund for 2009/2010, Sun Yat-sen University (RMB ¥1,000)"
+    - "<strong>2022</strong> — Runner-up Prize (Collaboration with AngelPowerFL, Tencent), iDASH Privacy & Security Workshop 2022 – Secure Genome Analysis Competition, Track 4: Secure Record Linkage"
+    - "<strong>2022</strong> — Top Reviewer Award, The 22nd Privacy Enhancing Technologies Symposium"
+    - "<strong>2016</strong> — Outstanding Tutors Award, Faculty of Engineering, CUHK"
+    - "<strong>2016</strong> — Teaching Assistant Award for 1st Term 2016–17, Department of Information Engineering, CUHK"
+    - "<strong>2016</strong> — Teaching Assistant Award for 2nd Term 2015–16, Department of Information Engineering, CUHK"
+    - "<strong>2013</strong> — Dean’s List 2012/2013, Faculty of Engineering, CUHK"
+    - "<strong>2012</strong> — Dean’s List 2011/2012, Faculty of Engineering, CUHK"
+    - "<strong>2012</strong> — Chung Chi College Departmental Prize 2011/2012, CUHK (HK$10,000)"
+    - "<strong>2012</strong> — Chung Chi College Scholarship 2011/2012, CUHK (HK$2,000)"
+    - "<strong>2011</strong> — National Scholarship for 2010/2011, Sun Yat-sen University (RMB ¥8,000)"
+    - "<strong>2011</strong> — First Prize Scholarship of SYSU Scholarship Fund for 2010/2011, Sun Yat-sen University (RMB ¥2,000)"
+    - "<strong>2010</strong> — Third Prize Scholarship of SYSU Scholarship Fund for 2009/2010, Sun Yat-sen University (RMB ¥1,000)"
 
 - title: Professional Activities
   type: nested_list
