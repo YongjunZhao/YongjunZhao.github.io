@@ -7,6 +7,8 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_bibliography/**"
+      - "_data/**"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -31,6 +33,8 @@ on:
       - main
     paths:
       - "assets/**"
+      - "_bibliography/**"
+      - "_data/**"
       - "**.html"
       - "**.js"
       - "**.liquid"
@@ -64,7 +68,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.2.2"
+          ruby-version: "3.3.5"
           bundler-cache: true
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
@@ -78,6 +82,12 @@ jobs:
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
+      - name: Debug bibliography output
+        run: |
+          echo "--- papers.bib (first 20 lines) ---"
+          head -20 _bibliography/papers.bib
+          echo "--- rendered VLDB entry ---"
+          grep -A 20 "Secure Join Operations in Multi-Identifier Databases" _site/publications/index.html || true
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
