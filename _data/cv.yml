@@ -92,7 +92,8 @@
         - "Asiacrypt (2021)"
     - title: Program Committee
       items:
-        - "2026: AAAI"
+        - "2027: AAAI"
+        - "2026: AAAI, WDSC@Asiacrypt"
         - "2025: AAAI, IEEE Global Blockchain Conference"
         - "2024: AAAI, PPAI, ICDCS"
         - "2023: AAAI (Main Track & AI for Social Impact Track), PoPETs"
@@ -104,7 +105,7 @@
         - "2017: CANS, InsCrypt, SeCrypt, CyberSecurity (CS)"
     - title: External Reviewer
       items:
-        - "2026: IEEE TETC, IEEE TPDS"
+        - "2026: IEEE TDSC, IEEE TETC, IEEE TPDS"
         - "2025: IEEE TDSC, IEEE TGCN, IEEE TIFS"
         - "2024: CRYPTO, IEEE TCC, IEEE TDSC"
         - "2023: IEEE TIFS, IEEE TDSC"
