@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .bg { fill: #0f6e6b; }
+    .fg { fill: #ffffff; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #4fd1c5; }
+      .fg { fill: #1c1c1d; }
+    }
+  </style>
+  <rect class="bg" width="64" height="64" rx="14"/>
+  <text class="fg" x="32" y="43" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">YZ</text>
+</svg>
